@@ -1,0 +1,911 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.9",
+    "versionPublish": "2.9",
+    "name": "Portofolio",
+    "favicon": "@PROJECT_PATH@/assets/images/dsc-0086-3872x2592-10.jpg",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-74696707-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>\r\n",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Emiel/OneDrive/school/website"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Emiel Caus",
+        "meta_descr": "Emiel, Caus, Keramiek, Glas",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            ".btn": {
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "header4-28",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dsc02458-3648x2736-78-2000x1500-39-2000x1500-17.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "EMIEL CAUS",
+          "text": "<br>Welke taal spreekt u?<br>Dit is een vraag, waarbij het antwoord <br>uw sitebezoek positief zal veranderen. <br>Gelieve op het antwoord te klikken!<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"indexnederlands.html\" data-toolbar=\"-mbrBtnMove\">NEDERLANDS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"indexenglish.html\" data-toolbar=\"-mbrBtnMove\">ENGLISH</a>"
+        }
+      ]
+    },
+    "work.html": {
+      "settings": {
+        "title": "Emiel Caus - WORK",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-9",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false
+          },
+          "title": "Please scroll down! Seen enough?!",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"indexenglish.html\" data-toolbar=\"-mbrBtnMove\">Back to homepage</a>"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03343-min-2736x3648-89-2000x2667-54.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03343-min-2736x3648-89.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03344-min-2736x3648-56-2000x2667-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03344-min-2736x3648-56.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03345-min-2736x3648-81-2000x2667-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03345-min-2736x3648-81.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03347-min-2736x3648-87-2000x2667-68.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03347-min-2736x3648-87.jpg",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03351-min-3648x2736-40-2000x1500-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03351-min-3648x2736-40.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03349-min-2736x3648-20-2000x2667-73.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03349-min-2736x3648-20.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03352-min-2736x3648-48-2000x2667-87.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03352-min-2736x3648-48.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03367-min-3648x2736-82-2000x1500-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03367-min-3648x2736-82.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03365-min-3648x2736-72-2000x1500-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03365-min-3648x2736-72.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03364-min-3648x2736-48-2000x1500-55.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03364-min-3648x2736-48.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03357-min-2736x3648-21-2000x2667-42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03357-min-2736x3648-21.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03359-min-3648x2736-94-2000x1500-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03359-min-3648x2736-94.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03353-min-2736x3648-97-2000x2667-11.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03353-min-2736x3648-97.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03354-min-2736x3648-54-2000x2667-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03354-min-2736x3648-54.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02463-3648x2736-49-2000x1500-28-2000x1500-95.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02463-3648x2736-49-2000x1500-28.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0086-3872x2592-10-128x86-34-128x86-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0086-3872x2592-10-128x86-34.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02458-3648x2736-78-2000x1500-51-2000x1500-89.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02458-3648x2736-78-2000x1500-51.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02459-3648x2736-12-2000x1500-77-800x600-55-800x600-82-800x600-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02459-3648x2736-12-2000x1500-77-800x600-55-800x600-82.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03345-min-2736x3648-81-2000x2667-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03345-min-2736x3648-81.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/emielcaus02-1600x1076-95-1600x1076-34-1600x1076-20-800x538-98-800x538-61.jpg",
+                "image": "@PROJECT_PATH@/assets/images/emielcaus02-1600x1076-95-1600x1076-34-1600x1076-20-800x538-98.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#000000",
+            "fullWidth": false,
+            "noGutter": false
+          },
+          "_anchor": "gallery1-6",
+          "articleLayout": false
+        }
+      ]
+    },
+    "indexenglish.html": {
+      "settings": {
+        "title": "Emiel Caus",
+        "meta_descr": "Emiel, Caus, Ceramics, Glass",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "36px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-9",
+          "_params": {
+            "color": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-black\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Emiel Caus</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"https://www.facebook.com/Powernapke69\">OVER MIJ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"werk.html\">WERK</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CONTACT</a></li>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "left",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-10",
+          "_params": {
+            "showCaption": true,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dsc-0086-1018x461-23.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "<p>WELCOME!</p>",
+          "meta": "",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Thanks for the interest in my work.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Please scroll down or navigate trough the links to get the most out of the site.<br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "right",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            },
+            ".mbr-article P": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-11",
+          "_params": {
+            "showCaption": true,
+            "showTitle": false,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-5768-3882x1225-46.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "",
+          "meta": "",
+          "text": "<p>I am a student @ LUCA.</p><p>I study Glass and Ceramics &nbsp;. &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02458-3648x2736-78-2000x1500-69.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02458-3648x2736-78.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02459-3648x2736-12-2000x1500-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02459-3648x2736-12.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02463-3648x2736-49-2000x1500-46.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02463-3648x2736-49.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03364-min-3648x2736-48-2000x1500-72-2000x1500-72.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03364-min-3648x2736-48-2000x1500-72.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "fullWidth": false,
+            "noGutter": true
+          },
+          "_anchor": "gallery1-12",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-13",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mg-9957-1600x509-94-1600x509-18.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false
+          },
+          "title": "Interested???",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"work.html\" data-toolbar=\"-mbrBtnMove\">CLICK HERE!!!</a>"
+        },
+        {
+          "_name": "form1",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "form1-14",
+          "_params": {
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/emielcaus02-1600x1076-95.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "CONTACT FORM",
+          "form": {
+            "action": "emielcaus@gmail.com",
+            "alerts": {
+              "success": "Thanks for the post!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone (Optional)"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND!</a>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "footer1-15",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Emiel Caus"
+        }
+      ]
+    },
+    "indexnederlands.html": {
+      "settings": {
+        "title": "Emiel Caus",
+        "meta_descr": "Emiel, Caus, Keramiek, Glas",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "36px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-16",
+          "_params": {
+            "color": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-black\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Emiel Caus</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"https://www.facebook.com/Powernapke69\">OVER MIJ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"werk.html\">WERK</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CONTACT</a></li>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "left",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-17",
+          "_params": {
+            "showCaption": true,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dsc-0086-1018x461-23.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "<p>WELKOM!</p>",
+          "meta": "",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bedankt voor uw interesse in mijn werk.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gelieve naar beneden te scrollen of een link aan te klikken voor verdere navigatie op de site.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "right",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            },
+            ".mbr-article P": {
+              "text-align": "right"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-18",
+          "_params": {
+            "showCaption": true,
+            "showTitle": false,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-5768-3882x1225-46.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "",
+          "meta": "",
+          "text": "<p>Ik ben een student aan het LUCA.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>Ik zit in het atelier Keramiek &amp; Glas.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02458-3648x2736-78-2000x1500-69.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02458-3648x2736-78.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02459-3648x2736-12-2000x1500-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02459-3648x2736-12.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02463-3648x2736-49-2000x1500-46.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02463-3648x2736-49.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03364-min-3648x2736-48-2000x1500-72-2000x1500-72.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03364-min-3648x2736-48-2000x1500-72.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "fullWidth": false,
+            "noGutter": true
+          },
+          "_anchor": "gallery1-19",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-20",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mg-9957-1600x509-94-1600x509-18.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false
+          },
+          "title": "Geïnteresseerd?&nbsp;",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"werk.html\" data-toolbar=\"-mbrBtnMove\">KLIK NU HIER!!!</a>"
+        },
+        {
+          "_name": "form1",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "form1-21",
+          "_params": {
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/emielcaus02-1600x1076-95.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "CONTACT FORMULIER",
+          "form": {
+            "action": "emielcaus@gmail.com",
+            "alerts": {
+              "success": "Bedankt voor uw inzending!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Naam*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefoon (Optioneel)"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Bericht"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">VERSTUUR!</a>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "footer1-22",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Emiel Caus"
+        }
+      ]
+    },
+    "werk.html": {
+      "settings": {
+        "title": "Emiel Caus - WERK",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-23",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false
+          },
+          "title": "Scroll naar beneden aub! Genoeg gezien?",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"indexnederlands.html\" data-toolbar=\"-mbrBtnMove\">Ga terug naar homepage</a>"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03343-min-2736x3648-89-2000x2667-54.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03343-min-2736x3648-89.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03344-min-2736x3648-56-2000x2667-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03344-min-2736x3648-56.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03345-min-2736x3648-81-2000x2667-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03345-min-2736x3648-81.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03347-min-2736x3648-87-2000x2667-68.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03347-min-2736x3648-87.jpg",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03351-min-3648x2736-40-2000x1500-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03351-min-3648x2736-40.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03349-min-2736x3648-20-2000x2667-73.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03349-min-2736x3648-20.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03352-min-2736x3648-48-2000x2667-87.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03352-min-2736x3648-48.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03367-min-3648x2736-82-2000x1500-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03367-min-3648x2736-82.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03365-min-3648x2736-72-2000x1500-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03365-min-3648x2736-72.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03364-min-3648x2736-48-2000x1500-55.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03364-min-3648x2736-48.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03357-min-2736x3648-21-2000x2667-42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03357-min-2736x3648-21.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03359-min-3648x2736-94-2000x1500-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03359-min-3648x2736-94.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03353-min-2736x3648-97-2000x2667-11.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03353-min-2736x3648-97.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03354-min-2736x3648-54-2000x2667-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03354-min-2736x3648-54.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02463-3648x2736-49-2000x1500-28-2000x1500-95.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02463-3648x2736-49-2000x1500-28.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0086-3872x2592-10-128x86-34-128x86-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0086-3872x2592-10-128x86-34.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02458-3648x2736-78-2000x1500-51-2000x1500-89.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02458-3648x2736-78-2000x1500-51.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc02459-3648x2736-12-2000x1500-77-800x600-55-800x600-82-800x600-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc02459-3648x2736-12-2000x1500-77-800x600-55-800x600-82.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc03345-min-2736x3648-81-2000x2667-77.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc03345-min-2736x3648-81.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/emielcaus02-1600x1076-95-1600x1076-34-1600x1076-20-800x538-98-800x538-61.jpg",
+                "image": "@PROJECT_PATH@/assets/images/emielcaus02-1600x1076-95-1600x1076-34-1600x1076-20-800x538-98.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#000000",
+            "fullWidth": false,
+            "noGutter": false
+          },
+          "_anchor": "gallery1-24",
+          "articleLayout": false
+        }
+      ]
+    }
+  }
+}
